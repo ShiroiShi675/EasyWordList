@@ -32,3 +32,6 @@ It allows you to generate all possible combinations of characters based on:
    python easywordlist.py
    ```
    
+## Author
+
+ShiroiShi  
