@@ -31,19 +31,19 @@ word = ""
 length = 0
 
 print_banner()
-choice = input("Want to use LETTERS?(y,n): ")
+choice = input("Use lowercase letters?(y,n): ")
 if(choice == "y"):
     finalcharset = charset
 
-choice = input("Want to use CAPS?(y,n): ")
+choice = input("Use uppercase letters?(y,n): ")
 if(choice == "y"):
     finalcharset += charset1
 
-choice = input("Want to use NUMBERS?(y,n): ")
+choice = input("Use numbers?(y,n): ")
 if(choice == "y"):
     finalcharset += charset2
 
-choice = input("Want to use SYMBOLS?(y,n): ")
+choice = input("Use symbols?(y,n): ")
 if(choice == "y"):
     finalcharset += charset3
 
@@ -52,7 +52,7 @@ if not finalcharset:
     exit()
 
 while True:
-    length = int(input("Insert word length(MAX 10): "))
+    length = int(input("Enter word length(Max 10): "))
     if (length <= 10 and length > 0):
         break
     else:
