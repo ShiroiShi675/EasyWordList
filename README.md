@@ -24,7 +24,7 @@ It allows you to generate all possible combinations of characters based on:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/EasyWordList.git
+   git clone https://github.com/ShiroiShi675/EasyWordList.git
    cd EasyWordList
    ```
 2. Run:
